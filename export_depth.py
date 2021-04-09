@@ -26,11 +26,11 @@ print('Loading model...')
 # Load model into GPU / CPU
 model = load_model(args.model, custom_objects=custom_objects, compile=False)
 
-#print('\nModel loaded ({0}).'.format(args.model))
+print('\nModel loaded ({0}).'.format(args.model))
 
 # Input images
 inputs = load_images( glob.glob(args.input) )
-#print('\nLoaded ({0}) images of size {1}.'.format(inputs.shape[0], inputs.shape[1:]))
+print('\nLoaded ({0}) images of size {1}.'.format(inputs.shape[0], inputs.shape[1:]))
 
 # Compute results
 outputs = predict(model, inputs)
