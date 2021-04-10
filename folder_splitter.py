@@ -12,7 +12,7 @@ def move_files(abs_dirname):
     """Move files into subdirectories."""
 
     files = [os.path.join(abs_dirname, f) for f in os.listdir(abs_dirname)]
-
+    files.sort()
     i = 0
     curr_subdir = None
 
