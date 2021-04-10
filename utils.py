@@ -82,7 +82,7 @@ def display_images(outputs, folder_index, inputs=None, gt=None, is_colormap=True
         im2 = Image.fromarray(np.uint8(imgs[1]*255))
 
         #im.save("/content/DenseDepth/outputs/img_{1}_color.png".format(out_dir, c))
-        im2.save("/content/DenseDepth/outputs/img_depth_" + str(folder_index) + "_" + str(c-1) + ".png")
+        im2.save("/content/DenseDepth/outputs/img_depth_" + str(folder_index) + str(c-1) + ".png")
 
         img_set = np.hstack(imgs)
         all_images.append(img_set)
