@@ -30,6 +30,9 @@ print('\nModel loaded ({0}).'.format(args.model))
 
 # Input images
 inputs = load_images( glob.glob(args.input) )
+files = glob.glob(args.input)
+files.sort()
+inputs = load_images(files)
 print('\nLoaded ({0}) images of size {1}.'.format(inputs.shape[0], inputs.shape[1:]))
 
 # Compute results
