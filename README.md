@@ -1,7 +1,9 @@
 ## [High Quality Monocular Depth Estimation via Transfer Learning (arXiv 2018)](https://arxiv.org/abs/1812.11941)
 **[Ibraheem Alhashim](https://ialhashim.github.io/)** and **Peter Wonka**
 
-Offical Keras (TensorFlow) implementaiton. If you have any questions or need more help with the code, contact the **first author**.
+Colab of this fork is available here: [DenseDepth Colab](https://colab.research.google.com/drive/1bOEr__G42MNOsc2uZ1ue2pnmoHEdsPpw?usp=sharing)
+
+Offical Keras (TensorFlow) implementation. If you have any questions or need more help with the code, contact the **first author**.
 
 **[Update]** Our latest method with better performance can be found here [AdaBins](https://github.com/shariqfarooq123/AdaBins).
 
