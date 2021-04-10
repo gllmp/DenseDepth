@@ -29,9 +29,11 @@ model = load_model(args.model, custom_objects=custom_objects, compile=False)
 print('\nModel loaded ({0}).'.format(args.model))
 
 # Input images
-inputs = load_images( glob.glob(args.input) )
+folder_index = args.input.rsplit("/*", 1)[0].rsplit("/", 1)[1]
+
 files = glob.glob(args.input)
 files.sort()
+
 inputs = load_images(files)
 print('\nLoaded ({0}) images of size {1}.'.format(inputs.shape[0], inputs.shape[1:]))
 
@@ -43,7 +45,7 @@ outputs = predict(model, inputs)
 
 # Display results
 #viz = display_images(outputs.copy(), inputs.copy())
-viz = display_images(outputs.copy(), inputs.copy(), is_colormap=False)
+viz = display_images(outputs.copy(), folder_index, inputs.copy(), is_colormap=False)
 #plt.figure(figsize=(10,5))
 #plt.imshow(viz)
 #plt.savefig('test.png')
