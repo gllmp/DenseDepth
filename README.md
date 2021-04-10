@@ -1,9 +1,9 @@
 ## [High Quality Monocular Depth Estimation via Transfer Learning (arXiv 2018)](https://arxiv.org/abs/1812.11941)
 **[Ibraheem Alhashim](https://ialhashim.github.io/)** and **Peter Wonka**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gllmp/DenseDepth/blob/master/notebook/DenseDepth.ipynb)
 
-Colab of this fork is available here: [DenseDepth Colab](https://colab.research.google.com/drive/1bOEr__G42MNOsc2uZ1ue2pnmoHEdsPpw?usp=sharing)
+
+Colab of this fork is available here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gllmp/DenseDepth/blob/master/notebook/DenseDepth.ipynb)
 
 Offical Keras (TensorFlow) implementation. If you have any questions or need more help with the code, contact the **first author**.
 
