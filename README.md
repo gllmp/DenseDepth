@@ -4,6 +4,7 @@
 
 
 Colab of this fork is available here:
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gllmp/DenseDepth/blob/master/notebook/DenseDepth.ipynb)
 
 Offical Keras (TensorFlow) implementation. If you have any questions or need more help with the code, contact the **first author**.
