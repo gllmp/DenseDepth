@@ -78,7 +78,7 @@ def display_images(outputs, folder_index, inputs=None, gt=None, is_colormap=True
         if not os.path.exists(out_dir):
             os.makedirs(out_dir)
 
-        #im = Image.fromarray(np.uint8(imgs[0]*255))
+        im = Image.fromarray(np.uint8(imgs[0]*255))
         im2 = Image.fromarray(np.uint8(imgs[1]*255))
 
         #im.save("/content/DenseDepth/outputs/img_{1}_color.png".format(out_dir, c))
